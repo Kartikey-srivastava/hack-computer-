@@ -1,11 +1,11 @@
 # Hack Computer Capstone Report
 
 **Name:** ____________________  
-**Roll number:** ____________________  
-**Personal K (last two digits):** ______  
-**K mod 3:** ______  
+**Roll number:** 2501010148  
+**Personal K (last two digits):** 48  
+**K mod 3:** 0  
 **Box dimensions:** 16 × ((K mod 4) + 1) pixels wide × 20 rows high  
-**Top screen row:** K
+**Top screen row:** 48
 
 ## 1. Objective
 The objective of this capstone is to build and test the Hack computer, implement a two-pass Hack assembler in Python, and write a Hack assembly program that displays a personalised black rectangle while a keyboard key is pressed.
@@ -22,10 +22,10 @@ Explain the two passes, predefined symbols, labels, variables starting at RAM ad
 
 ## 4. Part C — Personalised box
 State the formula and calculate your actual dimensions:
-- Top row = K = ______
+- Top row = K = 48
 - Height = 20 rows
-- Words per row = (K mod 4) + 1 = ______
-- Width = 16 × words per row = ______ pixels
+- Words per row = (K mod 4) + 1 = 1
+- Width = 16 × words per row = 16 pixels
 
 Explain how the program checks the keyboard and writes -1 to draw and 0 to erase the screen memory words.
 

@@ -1,5 +1,5 @@
-// Personal K = 64
-// Top row = 64; height = 20 rows; width = 16 pixels (1 words).
+// Personal K = 48
+// Top row = 48; height = 20 rows; width = 16 pixels (1 words).
 (CHECK_KEY)
 @KBD
 D=M
@@ -8,7 +8,7 @@ D;JGT
 @ERASE
 0;JMP
 (DRAW)
-@18432
+@17920
 D=A
 @ROW
 M=D
@@ -50,7 +50,7 @@ D;JGT
 @CHECK_KEY
 0;JMP
 (ERASE)
-@18432
+@17920
 D=A
 @ROW
 M=D
